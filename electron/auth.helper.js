@@ -8,5 +8,5 @@ const codeChallange = base64url(crypto.createHash('sha256').update(verifier).dig
 
 module.exports = {
     verifier: verifier,
-    codeChallange: codeChallange
+    codeChallenge: codeChallenge
 };
